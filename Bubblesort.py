@@ -1,3 +1,11 @@
+"""
+A idéia era fazer um algoritimo que ordenasse lista usando Bubblesort, 
+onde o usuário digitaria o tamanho da lista e os valores. Porém eu acabei incrementando um pouco
+o código, adicionando alguns travas de segurança que obrigam o usuário a digitar os valores 
+corretos e caso ele digite letras o números negativos para o tamanho da lista o software avisa
+e solicita que seja digitado os valores corretos. 
+"""
+
 lista = []
 contador = 0
 while True:

@@ -1,7 +1,9 @@
 """
 Encontrar o maior valor em uma lista
 novamente farei um código um pouco mais elaborado
-com try except para verificar os valores digitados e tudo mais0
+com try except para verificar os valores digitados e tudo mais
+Isso também pode ser feito através do método max(), porém por questões de aprendizado
+decidi fazer usando if
 """
 contador = 0
 valor = 0

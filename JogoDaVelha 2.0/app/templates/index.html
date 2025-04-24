@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jogo da Velha 2.0</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Jogo da Velha 2.0</h1>
+        <!--Formulário para os nomes dos jogadores-->
+        <form method="POST" action="/start" class="formulario-jogo">
+            <div class="form-group">
+                <label for="jogador1">Jogador 1:</label>
+                <input type="text" id="jogador1" name="jogador1" required>
+            </div>
+            <div class="form-group">
+                <label for="jogador2">Jogador 2:</label>
+                <input type="text" id="jogador2" name="jogador2" required>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
